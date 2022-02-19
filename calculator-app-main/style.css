@@ -1,0 +1,149 @@
+body {
+  background-color: hsl(222, 26%, 31%);
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  background: hsl(224, 36%, 15%);
+  width: 440px;
+  height: 100px;
+  border-color: hsl(224, 36%, 15%);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: right;
+  padding: 20px;
+}
+
+.delete {
+    background-color: hsl(225,21%,49%);
+    color: #ffffff;
+}
+
+.reset {
+    background-color: hsl(225,21%,49%);
+    color: #ffffff;
+    width: 49%;
+}
+
+.equal {
+    background-color: hsl(6, 63%, 50%);
+    color: #ffffff;
+    width: 49%;
+}
+
+.numbers {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-around;
+  border-radius: 10px;
+  text-align: center;
+  background-color: hsl(223, 31%, 20%);
+  padding: 20px;
+}
+
+button {
+  padding: 18px;
+  border-radius: 10px;
+  font-size: 25px;
+  width: 100px;
+  font-weight: 1000;
+  color: hsl(221, 14%, 31%);
+}
+
+h1 {
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+.theme {
+  background-color: hsl(223, 31%, 20%);
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input {
+    background: hsl(224, 36%, 15%);
+    width: 250px;
+    height: 40px;
+    border-color: hsl(224, 36%, 15%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: right;
+    padding: 20px;
+  }
+  
+  .delete {
+      background-color: hsl(225,21%,49%);
+      color: #ffffff;
+  }
+  
+  .reset {
+      background-color: hsl(225,21%,49%);
+      color: #ffffff;
+      width: 46%;
+  }
+  
+  .equal {
+      background-color: hsl(6, 63%, 50%);
+      color: #ffffff;
+      width: 46%;
+  }
+  
+  .numbers {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-around;
+    border-radius: 10px;
+    text-align: center;
+    background-color: hsl(223, 31%, 20%);
+    padding: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 60px;
+    font-weight: 1000;
+    color: hsl(221, 14%, 31%);
+  }
+}
