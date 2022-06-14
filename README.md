@@ -3,6 +3,10 @@
 
 Projeto de Calculadora utilizando as tecnologia: HTML CSS e Javascript a partir do site da Frontend Mentor
 
+### Tecnologias:
+
+  - `HTML, CSS, JavaScript`
+
 ## Clone o repositório:
 
   - `git clone git@github.com:michel-oliveira8/calculator-app.git`
